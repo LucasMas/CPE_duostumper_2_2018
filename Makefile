@@ -9,6 +9,7 @@ SRC 	=	src/main.c	\
 		src/parsing.c	\
 		src/my_strdup.c	\
 		src/error_handling.c	\
+		src/create_map.c
 
 OBJ 	=	$(SRC:.c=.o)
 
