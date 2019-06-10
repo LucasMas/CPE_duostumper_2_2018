@@ -11,6 +11,8 @@ typedef struct boggle {
     int size;
 } boggle_t;
 
+int boggle(boggle_t *);
+int my_strlen(char *);
 char *my_strdup(char *);
 int parsing(int, char **, boggle_t *);
 int error_handling(int, char **);

@@ -5,6 +5,7 @@
 ** duostumper2
 */
 
+#include <unistd.h>
 #include <stdlib.h>
 #include "my.h"
 
@@ -25,5 +26,6 @@ int main(int ac, char **av)
         write(2, "Wrong number of characters on the grid\n", 39);
         return (84);
     }
+    boggle(flag);
     return (ret);
 }
