@@ -18,7 +18,7 @@ OBJ 	=	$(SRC:.c=.o)
 
 NAME 	= 	boggle
 
-CFLAGS  = 	-Iinclude -Wextra -W -Wall -g 
+CFLAGS  = 	-Iinclude -Wextra -W -Wall -g
 
 all: 	$(NAME)
 
