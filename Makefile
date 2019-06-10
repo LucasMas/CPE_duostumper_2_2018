@@ -10,6 +10,7 @@ SRC 	=	src/main.c	\
 		src/my_strdup.c	\
 		src/error_handling.c	\
 		src/create_map.c	\
+		src/getline.c		\
 		src/game.c
 
 OBJ 	=	$(SRC:.c=.o)
