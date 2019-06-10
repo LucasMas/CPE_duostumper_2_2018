@@ -6,12 +6,15 @@
 ##
 
 SRC 	=	src/main.c	\
+		src/parsing.c	\
+		src/my_strdup.c	\
+		src/error_handling.c	\
 
 OBJ 	=	$(SRC:.c=.o)
 
-NAME 	= 	
+NAME 	= 	boggle
 
-CFLAGS  = 	-Iinclude -Wextra -W -Wall
+CFLAGS  = 	-Iinclude -Wextra -W -Wall -g 
 
 all: 	$(NAME)
 

@@ -6,10 +6,11 @@
 */
 
 typedef struct boggle {
-    int forced;
+    char *forced;
     char *letters;
     int size;
 } boggle_t;
 
 char *my_strdup(char *);
 int parsing(int, char **, boggle_t *);
+int error_handling(int, char **);
