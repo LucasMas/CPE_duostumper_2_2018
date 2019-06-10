@@ -11,6 +11,7 @@ SRC 	=	src/main.c	\
 		src/error_handling.c	\
 		src/create_map.c	\
 		src/getline.c		\
+		src/my_putstr.c		\
 		src/game.c
 
 OBJ 	=	$(SRC:.c=.o)

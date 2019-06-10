@@ -18,3 +18,5 @@ int parsing(int, char **, boggle_t *);
 int error_handling(int, char **);
 char **create_map(int, char *);
 char *get_line(void);
+int my_putstr(char *);
+void my_putchar(char);
