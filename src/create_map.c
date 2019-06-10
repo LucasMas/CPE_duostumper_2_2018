@@ -53,10 +53,10 @@ char **create_map(int size, char *text)
     int line_max = size + 2;
     char **map = NULL;
 
-    map = malloc(sizeof(char *) * col_max);
+    map = malloc(sizeof(char *) * line_max);
     if (map == NULL)
         return (NULL);
-    map = malloc_line(map, line_max);
+    map = malloc_line(map, col_max);
     if (map == NULL)
         return (NULL);
     map[0] = first_and_last_line(map[0], col_max);
